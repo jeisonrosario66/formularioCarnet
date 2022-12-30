@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Formulario-carnet</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="title">
+			<h1>Titulo principal</h1>
+		</div>
+		<section class="carnet" id="carnet">
+			<!-- -contenido de la cara delantera -->
+			<div class="delantera">
+				<div class="flexbox-datos">
+					<div class="foto" id="foto"></div>
+					<div class="datos-delanteros">
+						<div class="grupo grupo_a">
+							<p class="label">Dato 1:</p>
+							<p class="dato_1_inp">Dato 1 input</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- -contenido de la cara trasera -->
+			<div class="trasera">
+				<div class="flexbox-datos">
+					<div class="datos-trasera">
+						<div class="grupo grupo_b">
+							<p class="label">Dato 2:</p>
+							<p class="dato_2_inp">Dato 2 input</p>
+						</div>
+						<div class="grupo grupo_c">
+							<p class="label">Dato 3:</p>
+							<p class="dato_3_inp">Dato 3 input</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div>
+			<form action="carnet.php" method="POST" id="formulario-carnet" class="formulario" enctype="multipart/form-data">
+				<label class="mascota">DATOS DEL FORMULARIO</label>
+				<div class="grupo">
+					<label for="inputFoto">FOTO (PNG,JPEG)</label>
+					<input accept="image/png,image/jpeg,image/PNG,image/JPEG" type="file" name="foto" id="inputFoto" style="color: transparent;" required>
+				</div>
+				<div class="grupo">
+				<label for="dato_1">Input dato 1 (type text)</label>
+					<input type="text" name="dato_1" id="dato_1" maxlength="20" required>
+				</div>
+				<div class="grupo">
+					<label for="dato_2">Input dato 2 (type text)</label>
+					<input type="text" name="dato_2" id="dato_2" maxlength="20" required>
+				</div>
+				<div class="grupo">
+					<label for="dato_3">Input dato 3 (type number)</label>
+					<input type="number" name="dato_3" id="dato_3" maxlength="20" required>
+				</div>	
+			</br>
+				<button class="btn-enviar" name="boton" type="submit">Descargar</button>
+			</form>
+		</div>
+		<div class="firmaDev">
+			<a href="https://github.com/jeisonrosario66">Desarrollado por &ltJeison Rosario&gt</a>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
