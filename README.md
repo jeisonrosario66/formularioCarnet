@@ -8,3 +8,5 @@ formulario: se encarga de recolectar la informacion introducida por el usuario
 carnet lleno: una segunda pagina php con la la infomacion introducida en el formulario 
               la informacion se presenta en el carnet organizada como sea desada
               una captura de pantalla para guardar la informacion (por parte del usuario)              
+
+❮img src="formularioCarnet/img/" ❯
