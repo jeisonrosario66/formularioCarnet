@@ -19,6 +19,7 @@
 	<title>Formulario de Carnet</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/html2canvas.min.js"></script>
 </head>
 <body class="carnet-final">
 	<div class="contenedor contededor_final">
