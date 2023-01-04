@@ -3,10 +3,7 @@ const carnet = document.querySelector('#carnet'),
     dato_2_ID = document.querySelector('#carnet .dato_2_inp'),
 	dato_3_ID = document.querySelector('#carnet .dato_3_inp'),
 	formulario = document.querySelector('#formulario-carnet'),
-	  //nitCarnet = document.querySelector('#carnet .numero'),
 	foto = document.querySelector('#foto'),
-	  //firma = document.querySelector('#carnet .firma p'),
-	  //marcaVehiculo = document.querySelector('#carnet .direccion'),
 	telResponsable = document.querySelector('#carnet .telefono');
 	  
 //input foto de perfil
